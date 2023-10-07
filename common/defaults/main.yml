@@ -1,0 +1,3 @@
+common_user: admin
+common_ssh_port: 22
+common_pubkey: ""

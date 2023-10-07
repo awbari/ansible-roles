@@ -1,0 +1,15 @@
+- name: Install basic software
+  apt:
+    pkg: 
+      - vim
+      - htop
+      - unzip
+      - net-tools
+      - apt-transport-https
+      - ca-certificates
+      - curl
+      - software-properties-common
+      - python3-setuptools
+      - python3-pip
+    state: latest
+    update_cache: true
